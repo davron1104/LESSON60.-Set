@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding: 30px;
+    columns: 3 200px;
+    column-rule: 1px dashed #f00;
+    column-gap: 30px;
+}
+
+.text span {
+    color: brown;
+    font-weight: 700;
+    font-size: 25px;
+    column-span: all;
+}
+
+.text p {
+    break-inside: auto;
+}
